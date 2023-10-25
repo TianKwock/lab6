@@ -1,3 +1,5 @@
+#Tian and Aaron
+
 def decode(password):
     password = list(password)
     for element in range(len(password)):
@@ -7,4 +9,3 @@ def decode(password):
     password = ''.join(map(str, password))
     return password
 
-print(decode('45678888'))
